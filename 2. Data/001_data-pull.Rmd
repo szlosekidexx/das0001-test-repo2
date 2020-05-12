@@ -1,0 +1,23 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+
+
+```{r}
+
+data <- mtcars
+
+head(data)
+```
+
+
+
+```{r}
+
+readr::write_rds(data,here::here("2. Data","001_data-pull_output_001.rds"))
+
+```
+
